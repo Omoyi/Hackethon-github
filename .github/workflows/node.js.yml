@@ -38,8 +38,8 @@ jobs:
       
     - name: Deploy Site
       env:
-        NETLIFY_SITE_ID: ${{ secrets.NETLFY_APP_ID }}
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_ACCESS_TOKEN }}
+        NETLIFY_SITE_ID: ${{ secrets.SECRET }}
+        NETLIFY_AUTH_TOKEN: ${{ secrets.P_A_T }}
       run: netlify deploy --prod
 
 
