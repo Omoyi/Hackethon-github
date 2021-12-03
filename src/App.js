@@ -11,7 +11,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://dev.to/devteam/join-us-for-the-2021-github-actions-hackathon-on-dev-4hn4"
           target="_blank"
           rel="noopener noreferrer"
         >Hackathon huuray</a>
